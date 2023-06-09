@@ -12,6 +12,6 @@ contract('SimpleStorage', async (accounts)=>{
         const app = await simpleStorage.deployed();
         await app.set(888);
         const newState = await app.get();
-        assert.equal(newState, 888, "StoredData was not correctly set to 888.")
+        assert.equal(newState, 888, "StoredData was not correctly set to 888.");
     });
 });

@@ -9,3 +9,8 @@ Try [SimpleStorage](SimpleStorage)
 An example of smart contract which stores a dynamic unsigned integer array.
 
 Try [ArrayStorage](ArrayStorage)
+
+## MappingStorage
+An example of smart contract which stores a dynamic unsigned integer array indexed by account address.
+
+Try [MappingStorage](MappingStorage)
